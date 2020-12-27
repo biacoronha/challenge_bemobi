@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e6c9ffb9-7754-4091-b15b-6567f1f6f7ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/apk/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/apk/classes2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/challenge.apk" beforeDir="false" afterPath="$PROJECT_DIR$/dist/challenge.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-release-key.keystore" beforeDir="false" afterPath="$PROJECT_DIR$/my-release-key.keystore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService.smali" beforeDir="false" afterPath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService.smali" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/view/MainActivity.smali" beforeDir="false" afterPath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/view/MainActivity.smali" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/view/MainActivity$1.smali" beforeDir="false" afterPath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/view/MainActivity$1.smali" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +62,16 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -76,14 +89,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService.smali</url>
-          <line>172</line>
-          <properties class="br.com.bemobi.drm.challenges.service.PurchaseService" method="validatePurchaseOnline">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/view/MainActivity$2.smali</url>
           <line>38</line>
           <properties class="br.com.bemobi.drm.challenges.view.MainActivity$2" method="onClick">
@@ -98,6 +103,34 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/view/MainActivity.smali</url>
+          <line>69</line>
+          <properties class="br.com.bemobi.drm.challenges.view.MainActivity" method="onCreate">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/view/MainActivity.smali</url>
+          <line>121</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/view/MainActivity$2.smali</url>
+          <line>49</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService$2.smali</url>
+          <line>26</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService$2.smali</url>
+          <line>59</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

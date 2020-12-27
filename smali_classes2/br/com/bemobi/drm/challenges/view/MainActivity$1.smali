@@ -60,6 +60,7 @@
 
     invoke-static {v0, v1}, Lbr/com/bemobi/drm/challenges/view/MainActivity;->access$000(Lbr/com/bemobi/drm/challenges/view/MainActivity;Ljava/lang/String;)V
 
+
     .line 40
     iget-object v0, p0, Lbr/com/bemobi/drm/challenges/view/MainActivity$1;->this$0:Lbr/com/bemobi/drm/challenges/view/MainActivity;
 
