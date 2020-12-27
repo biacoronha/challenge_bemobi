@@ -54,39 +54,6 @@
     return-object v0
 .end method
 
-.method private loadAds()V
-    .locals 2
-
-    .line 61
-    const v0, 0x7f07003a
-
-    invoke-virtual {p0, v0}, Lbr/com/bemobi/drm/challenges/view/MainActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/google/android/gms/ads/AdView;
-
-    iput-object v0, p0, Lbr/com/bemobi/drm/challenges/view/MainActivity;->mAdView:Lcom/google/android/gms/ads/AdView;
-
-    .line 62
-    new-instance v0, Lcom/google/android/gms/ads/AdRequest$Builder;
-
-    invoke-direct {v0}, Lcom/google/android/gms/ads/AdRequest$Builder;-><init>()V
-
-    invoke-virtual {v0}, Lcom/google/android/gms/ads/AdRequest$Builder;->build()Lcom/google/android/gms/ads/AdRequest;
-
-    move-result-object v0
-
-    .line 63
-    .local v0, "adRequest":Lcom/google/android/gms/ads/AdRequest;
-    iget-object v1, p0, Lbr/com/bemobi/drm/challenges/view/MainActivity;->mAdView:Lcom/google/android/gms/ads/AdView;
-
-    invoke-virtual {v1, v0}, Lcom/google/android/gms/ads/AdView;->loadAd(Lcom/google/android/gms/ads/AdRequest;)V
-
-    .line 64
-    return-void
-.end method
-
 .method private log(Ljava/lang/String;)V
     .locals 0
     .param p1, "value"    # Ljava/lang/String;
@@ -133,9 +100,6 @@
     check-cast v0, Landroid/widget/Button;
 
     iput-object v0, p0, Lbr/com/bemobi/drm/challenges/view/MainActivity;->button:Landroid/widget/Button;
-
-    .line 33
-    invoke-direct {p0}, Lbr/com/bemobi/drm/challenges/view/MainActivity;->loadAds()V
 
     .line 35
     new-instance v0, Lbr/com/bemobi/drm/challenges/service/PurchaseService;
