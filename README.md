@@ -2,6 +2,7 @@
 Dificuldades encontradas:
 
 Para realizar a alteração para exibir o Toast eu procurei os logs correspondetes e tentei colocar o seguinte trecho de código:
+
 " invoke-static {p0, v1, v0}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 
   move-result-object v0
