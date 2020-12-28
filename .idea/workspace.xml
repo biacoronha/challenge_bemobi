@@ -6,7 +6,7 @@
       <change beforePath="$PROJECT_DIR$/build/apk/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/apk/classes2.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/challenge.apk" beforeDir="false" afterPath="$PROJECT_DIR$/dist/challenge.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-release-key.keystore" beforeDir="false" afterPath="$PROJECT_DIR$/my-release-key.keystore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService$2.smali" beforeDir="false" afterPath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService$2.smali" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService.smali" beforeDir="false" afterPath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService.smali" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -166,8 +166,6 @@
 
     invoke-virtual {p0, v0}, Lbr/com/bemobi/drm/challenges/service/PurchaseService;->validatePurchaseOnline(Lbr/com/bemobi/drm/challenges/contract/PurchaseValidationCallback;)V
 
-     invoke-interface {v0}, Lbr/com/bemobi/drm/challenges/contract/PurchaseCallback;->onSuccess()V
-
     .line 82
     return-void
 .end method
