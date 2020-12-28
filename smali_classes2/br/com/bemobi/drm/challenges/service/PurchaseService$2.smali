@@ -56,15 +56,6 @@
     .locals 1
     .param p1, "result"    # Ljava/lang/String;
 
-    .line 69
-    const-string v0, "ok"
-
-    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
     .line 70
     iget-object v0, p0, Lbr/com/bemobi/drm/challenges/service/PurchaseService$2;->this$0:Lbr/com/bemobi/drm/challenges/service/PurchaseService;
 
@@ -82,18 +73,6 @@
     move-result-object v0
 
     invoke-interface {v0}, Lbr/com/bemobi/drm/challenges/contract/PurchaseCallback;->onSuccess()V
-
-    goto :goto_0
-
-    .line 73
-    :cond_0
-    iget-object v0, p0, Lbr/com/bemobi/drm/challenges/service/PurchaseService$2;->this$0:Lbr/com/bemobi/drm/challenges/service/PurchaseService;
-
-    invoke-static {v0}, Lbr/com/bemobi/drm/challenges/service/PurchaseService;->access$100(Lbr/com/bemobi/drm/challenges/service/PurchaseService;)Lbr/com/bemobi/drm/challenges/contract/PurchaseCallback;
-
-    move-result-object v0
-
-    invoke-interface {v0}, Lbr/com/bemobi/drm/challenges/contract/PurchaseCallback;->onFailure()V
 
     .line 75
     :goto_0

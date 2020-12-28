@@ -6,8 +6,7 @@
       <change beforePath="$PROJECT_DIR$/build/apk/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/apk/classes2.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/challenge.apk" beforeDir="false" afterPath="$PROJECT_DIR$/dist/challenge.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-release-key.keystore" beforeDir="false" afterPath="$PROJECT_DIR$/my-release-key.keystore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService.smali" beforeDir="false" afterPath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService.smali" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/view/MainActivity$1.smali" beforeDir="false" afterPath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/view/MainActivity$1.smali" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService$2.smali" beforeDir="false" afterPath="$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService$2.smali" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,9 +127,9 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService$2.smali</url>
-          <line>59</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/smali_classes2/br/com/bemobi/drm/challenges/service/PurchaseService$1.smali</url>
+          <line>40</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
